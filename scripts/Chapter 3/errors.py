@@ -1,6 +1,6 @@
 # avoiding index errors when working with lists
 motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcyles[3])
+print(motorcycles[3])
 # result is an index error because there is no item in the list that has an index of 3
 # remember index starts at 0
 # when you want to access the last item, you can always use the index -1
