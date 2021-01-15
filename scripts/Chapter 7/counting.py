@@ -39,11 +39,13 @@ prompt += "\nEnter 'quit' to end the program. "
 active = True
 # as long as the active variable remains True, the loop will continue running
 while active:
-    message = input (prompt)
+    message = input(prompt)
     # if the user enters 'quit', we set active to False and while loop stops
     if message == 'quit':
         active = False
     # if user enters anything other than 'quit', print their input as a message
     else:
         print(message)
+
+
 
